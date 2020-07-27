@@ -1,0 +1,35 @@
+// 多个头部信息引用该布局
+.content-flex {
+	background: #fff;
+	border-radius: 12rpx;
+	padding: 10rpx 20rpx;
+	box-shadow: 0 0 4rpx rgba(0, 0, 0, 0.26);
+	.filed {
+		margin-top: 10rpx;
+	}
+	.filed-inline {
+		margin-top: 0;
+		padding: 30rpx 0;
+		border-bottom: #d2d2d2 1px solid;
+	}
+	.upload-img-header {
+		padding-top: 30rpx;
+	}
+}
+// 图片上传自定义样式
+.upload-photo {
+	width: 160rpx;
+	height: 160rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	.in-back {
+		width: 100rpx;
+		height: 100rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #d8d8d8;
+	}
+}

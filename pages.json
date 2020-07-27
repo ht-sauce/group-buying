@@ -1,0 +1,247 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": { // 首页
+				"navigationBarTitleText": "拜客社团"
+			}
+		},
+		{
+			"path": "pages/release/release",
+			"style": { // 发布团购活动作用
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": { // 订单查看和管理，有别于群主页的订单管理样式
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": { // 个人中心
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/agreement/agreement",
+			"style": {
+				"navigationBarTitleText": "建群-须知"
+			}
+		},
+		{
+			"path": "pages/GroupBuilding/GroupBuilding",
+			"style": {
+				"navigationBarTitleText": "建群"
+			}
+		},
+		{
+			"path": "pages/SelectCommunity/SelectCommunity",
+			"style": {
+				"navigationBarTitleText": "选择小区"
+			}
+		},
+		{
+			"path": "pages/AddAddress/AddAddress",
+			"style": {
+				"navigationBarTitleText": "新增小区地址"
+			}
+		},
+		{
+			"path": "pages/GroupHome/GroupHome",
+			"style": {
+				"navigationBarTitleText": "群主页"
+			}
+		},
+		{
+			"path": "pages/BecsLogin/BecsLogin",
+			"style": { // 登录授权页面
+				"navigationBarTitleText": "拜客社团"
+			}
+		},
+		{
+			"path": "pages/PersonalHome/PersonalHome",
+			"style": { // 查看群员的个人主页，和群主页是有一定差异
+				"navigationBarTitleText": "个人主页"
+			}
+		},
+		{
+			"path": "pages/MemberManage/MemberManage",
+			"style": { // 群主页下面的成员管理
+				"navigationBarTitleText": "成员"
+			}
+		},
+		{
+			"path": "pages/MemberDetails/MemberDetails",
+			"style": { // 群主页查看成员详情内容
+				"navigationBarTitleText": "成员详情"
+			}
+		},
+		{
+			"path": "pages/ActiverManagement/ActiverManagement",
+			"style": { // 其实是查看并且管理活动
+				"navigationBarTitleText": "选择活动"
+			}
+		},
+		{
+			"path": "pages/PickUpPoint/PickUpPoint",
+			"style": {
+				"navigationBarTitleText": "取货点管理"
+			}
+		},
+		{
+			"path": "pages/ActiveOrderDetails/ActiveOrderDetails",
+			"style": { // 群主页的订单管理
+				"navigationBarTitleText": "订单管理"
+			}
+		},
+		{
+			"path": "pages/PickUpPointUpdate/PickUpPointUpdate",
+			"style": { // 提货点的更新和新增
+				"navigationBarTitleText": "新增提货点"
+			}
+		},
+		{
+			"path": "pages/DistributionList/DistributionList",
+			"style": {
+				"navigationBarTitleText": "配货单"
+			}
+		},
+		{
+			"path": "pages/OrderHandle/OrderHandle",
+			"style": { // 包含5种状态，分别处理订单的发货，查看，取消，等等
+				"navigationBarTitleText": "订单处理"
+			}
+		},
+		{
+			"path": "pages/GroupOrderDetails/GroupOrderDetails",
+			"style": { // 团购活动详情，可以进行购物下单
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/AgreementDetails/AgreementDetails",
+			"style": {
+				"navigationBarTitleText": "拜客社群用户协议"
+			}
+		},
+		{
+			"path": "pages/ActivityStatistics/ActivityStatistics",
+			"style": { // 团购活动统计等等
+				"navigationBarTitleText": "活动统计"
+			}
+		},
+		{
+			"path": "pages/GoodsLibrary/GoodsLibrary",
+			"style": {
+				"navigationBarTitleText": "商品库"
+			}
+		},
+		{
+			"path": "pages/GoodsClassMange/GoodsClassMange",
+			"style": { // 商品分类管理
+				"navigationBarTitleText": "分类管理"
+			}
+		},
+		{
+			"path": "pages/EditGoods/EditGoods",
+			"style": { // 包含商品的编辑以及查看
+				"navigationBarTitleText": "编辑商品"
+			}
+		},
+		{
+			"path": "pages/GoodsSpecs/GoodsSpecs",
+			"style": {
+				"navigationBarTitleText": "商品规格"
+			}
+		},
+		{
+			"path": "pages/LadderPrice/LadderPrice",
+			"style": {
+				"navigationBarTitleText": "设置阶梯价格"
+			}
+		}, {
+			"path": "pages/Certification/Certification",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		}, {
+			"path": "pages/CommunityToJoin/CommunityToJoin",
+			"style": {
+				"navigationBarTitleText": "我加入的社群"
+			}
+		}, {
+			"path": "pages/AccountBalance/AccountBalance",
+			"style": {
+				"navigationBarTitleText": "账户余额"
+			}
+		}, {
+			"path": "pages/Withdrawal/Withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		}, {
+			"path": "pages/CapitalDetails/CapitalDetails",
+			"style": {
+				"navigationBarTitleText": "资金明细"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "拜客社团",
+		"navigationStyle": "custom",
+		"usingComponents": {
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-image": "/wxcomponents/vant/image/index",
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-count-down": "/wxcomponents/vant/count-down/index",
+			"van-uploader": "/wxcomponents/vant/uploader/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-dialog": "/wxcomponents/vant/dialog/index",
+			"van-checkbox": "/wxcomponents/vant/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-switch": "/wxcomponents/vant/switch/index"
+		}
+	},
+	"tabBar": {
+		// 选中的文本颜色
+		"selectedColor": "#000",
+		// 所有 tabBar 节点的配置数组
+		"list": [{
+				// 页面路径
+				"pagePath": "pages/index/index",
+				// 显示的文本
+				"text": "首页",
+				// 默认图标路径
+				"iconPath": "/static/tab/home.png",
+				// 选中之后的图标路径
+				"selectedIconPath": "/static/tab/home-active.png"
+			},
+			{
+				"pagePath": "pages/release/release",
+				"text": "发布",
+				"iconPath": "/static/tab/issue.png",
+				"selectedIconPath": "/static/tab/issue-active.png"
+			},
+			{
+				"pagePath": "pages/orders/orders",
+				"text": "订单",
+				"iconPath": "/static/tab/order.png",
+				"selectedIconPath": "/static/tab/order-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "/static/tab/my.png",
+				"selectedIconPath": "/static/tab/my-active.png"
+			}
+		]
+	}
+}
